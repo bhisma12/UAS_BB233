@@ -1,0 +1,63 @@
+:root {
+  color: --primary(pink);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(217, 159, 169);
+}
+
+.logo-img img {
+  height: 50px;
+  margin-left: 20px;
+}
+
+.navbar-container .navbar ul li {
+  align-items: center;
+  justify-content: center;
+  display: inline;
+  list-style: none;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.navbar-nav ul li {
+  display: inline;
+  text-decoration: none;
+}
+
+.navbar-nav ul li a {
+  color: black;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.navbar-nav ul li a:hover {
+  background-color: pink;
+  transition: 0.2s;
+  color: white;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline;
+  background-color: pink;
+  transition: 0.2s;
+  color: white;
+}

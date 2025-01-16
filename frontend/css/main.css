@@ -1,0 +1,56 @@
+main {
+  background-image: url(../../assets/wallpaper.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  margin-bottom: 15px;
+}
+
+.main-page h3 {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: normal;
+  background-color: rgba(255, 192, 203, 0.667);
+}
+
+.main-text h1 {
+  margin: 100px;
+  padding: 5px;
+  border-radius: 15px;
+  display: inline;
+  margin-left: 150px;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+  background-color: rgba(189, 143, 151, 0.663);
+}
+
+.btn-buy button {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  background-color: rgb(189, 143, 151);
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.btn-buy button a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins", serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.btn-buy button:hover {
+  background-color: rgb(122, 82, 89);
+  transition: 0.3s;
+}
