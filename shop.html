@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aero Street</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #ff6600;
+            color: white;
+            padding: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header img {
+            height: 40px;
+        }
+
+        header .search-bar {
+            flex: 1;
+            margin: 0 20px;
+        }
+
+        header .search-bar input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        header .cart-profile {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+        }
+
+        header .cart-profile img {
+            height: 30px;
+        }
+
+        .banner {
+            text-align: center;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .banner img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .categories {
+            padding: 20px;
+        }
+
+        .categories h2 {
+            margin-bottom: 15px;
+        }
+
+        .products {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .product {
+            flex: 1 1 calc(25% - 20px);
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product h3 {
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        .product p {
+            padding: 5px 10px;
+        }
+
+        .footer {
+            background-color: #ff6600;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .footer .payment-options img {
+            height: 30px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Aero Street Logo">
+        <div class="search-bar">
+            <input type="text" placeholder="Cari Produk">
+        </div>
+        <div class="cart-profile">
+            <img src="cart-icon.png" alt="Cart">
+            <img src="profile-icon.png" alt="Profile">
+        </div>
+    </header>
+
+    <div class="banner">
+        <img src="banner-image.jpg" alt="Aero Street Sepatu Unisex">
+    </div>
+
+    <div class="categories">
+        <h2>Kategori</h2>
+        <div class="products">
+            <div class="product">
+                <img src="product1.jpg" alt="Sepatu 1">
+                <h3>Sepatu Unisex</h3>
+                <p>Rp 150,000</p>
+            </div>
+            <div class="product">
+                <img src="product2.jpg" alt="Sepatu 2">
+                <h3>Sepatu Casual</h3>
+                <p>Rp 180,000</p>
+            </div>
+            <div class="product">
+                <img src="product3.jpg" alt="Sepatu 3">
+                <h3>Sepatu Sport</h3>
+                <p>Rp 200,000</p>
+            </div>
+            <div class="product">
+                <img src="product4.jpg" alt="Sepatu 4">
+                <h3>Sepatu Formal</h3>
+                <p>Rp 250,000</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Pembayaran:</p>
+        <div class="payment-options">
+            <img src="bca-logo.png" alt="BCA">
+            <img src="bni-logo.png" alt="BNI">
+            <img src="ovo-logo.png" alt="OVO">
+            <img src="gopay-logo.png" alt="Gopay">
+        </div>
+        <p>Pengiriman:</p>
+        <div class="shipping-options">
+            <img src="jne-logo.png" alt="JNE">
+            <img src="jnt-logo.png" alt="JNT">
+        </div>
+    </footer>
+</body>
+</html>
