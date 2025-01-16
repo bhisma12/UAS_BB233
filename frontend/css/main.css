@@ -37,7 +37,7 @@ main {
   text-decoration: none;
   color: white;
   padding: 15px;
-  background-color: rgb(189, 143, 151);
+  background-color: rgb(164, 163, 164);
   border-radius: 15px;
   cursor: pointer;
 }
@@ -51,6 +51,6 @@ main {
 }
 
 .btn-buy button:hover {
-  background-color: rgb(122, 82, 89);
+  background-color: rgb(76, 76, 76);
   transition: 0.3s;
 }

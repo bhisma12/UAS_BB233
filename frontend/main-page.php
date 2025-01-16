@@ -1,3 +1,7 @@
+<?php
+session_start()
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,11 +54,12 @@
             <h3>mewujudkan mobil impian anda dengan <br>harga terjangkau dengan dengan harga miring</h3>
         </div>
         <div class="btn-buy">
-            <button type="button"><a href="">Belanja Sekarang</a></button>
+        <form method="POST" action="check_acc.php">
+        <button type="submit">Akses Halaman Dashboard</button>
+    </form>
         </div>
     </div>
-    <?php
-    
+
    </main>
    <script>
       feather.replace();
