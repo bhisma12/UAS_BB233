@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aero Street</title>
+    <title>Used Car Dealersip</title>
     <style>
       * {
         margin: 0;
@@ -16,7 +16,7 @@
       }
 
       header {
-        background-color: #ff6600;
+        background-color: #4B4D4F;
         color: white;
         padding: 15px;
         display: flex;
@@ -112,7 +112,7 @@
       }
 
       .footer {
-        background-color: #ff6600;
+        background-color: #4B4D4F;
         color: white;
         padding: 20px;
         text-align: center;
@@ -132,7 +132,7 @@
   <script src="https://unpkg.com/feather-icons"></script>
   <body>
     <header>
-      <img src="../assets/Logo.png" alt="Aero Street Logo" />
+      <img src="../assets/Logo.png" alt="Used Car Daelership" />
       <div class="search-bar">
         <input type="text" placeholder="Cari Produk" />
       </div>
@@ -178,26 +178,26 @@
         <div class="product">
           <a href=""></a>
           <img src="../assets/spt.jpg" alt="Sepatu 1" />
-          <h3>Sepatu Unisex</h3>
-          <p>Rp 150,000</p>
+          <h3>LAND CRUISER 2025</h3>
+          <p>Rp 2,584,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/spt2.jpg" alt="Sepatu 2" />
-          <h3>Sepatu Casual</h3>
-          <p>Rp 180,000</p>
+          <h3>LEXUS LX 600</h3>
+          <p>Rp 3,059,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/spt3.jpg" alt="Sepatu 3" />
-          <h3>Sepatu Sport</h3>
-          <p>Rp 200,000</p>
+          <h3>TOYOTA GR YARIS 2025</h3>
+          <p>Rp 1,198,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/SPT5.jpg" alt="Sepatu 4" />
-          <h3>Sepatu Formal</h3>
-          <p>Rp 250,000</p>
+          <h3>MCLAREN 720S</h3>
+          <p>Rp 3,428,000,000</p>
           <button>Beli Sekarang</button>
         </div>
       </div>
