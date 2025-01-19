@@ -140,6 +140,32 @@
         <i data-feather="shopping-cart"></i>
         <i data-feather="user"></i>
       </div>
+   <!-- Dropdown component -->
+<div class="dropdown">
+  <!-- Dropdown toggle button -->
+  <button>
+    class="btn btn-secondary dropdown-toggle" 
+    type="button" 
+    data-bs-toggle="dropdown" 
+    aria-expanded="false"
+  >
+    Dropdown button
+  </button>
+  
+  <!-- Dropdown menu -->
+  <ul class="dropdown-menu">
+    <!-- Dropdown menu items -->
+    <li>
+      <a class="dropdown-item" href="#">Action</a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#">Another action</a>
+    </li>
+    <li>
+      <a class="dropdown-item" href="#">Something else here</a>
+    </li>
+  </ul>
+</div>
     </header>
 
     <div class="banner">

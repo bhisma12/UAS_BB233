@@ -160,9 +160,9 @@ button.toggle-password {
             <h2>Welcome to Used Car admin</h2>
             <form action="#" method="post">
                 <div class="input-group">
-                    <label for="username">User Admin</label>
+                    <label for="username">UserAdmin</label>
                     <div class="input-wrapper">
-                        <input type="email" id="email" name="username" placeholder="user admin" required>
+                        <input type="email" id="email" name="username" placeholder="email" required>
                     </div>
                 </div>
                 <div class="input-group">
