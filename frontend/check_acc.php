@@ -4,7 +4,7 @@ session_start();
 // Cek apakah pengguna sudah login
 if (isset($_SESSION['user_id'])) {
     // Jika sudah login, redirect ke halaman dashboard
-    header("Location: dashboard.php");
+    header("Location: shop.html");
     exit();
 } else {
     // Jika belum login, redirect ke halaman login
