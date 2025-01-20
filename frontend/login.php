@@ -12,11 +12,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    // Lakukan pengecekan ke database (ini hanya contoh, sesuaikan dengan database Anda)
-    // Misalnya, kita anggap username adalah 'admin' dan password adalah 'password'
+   
     if ($username == 'admin' && $password == 'password') {
         // Jika login berhasil, simpan informasi pengguna di session
-        $_SESSION['user_id'] = $username; // Anda bisa menyimpan ID pengguna yang sebenarnya
+        $_SESSION['user_id'] = $username; 
         header("Location: dashboard.php");
         exit();
     } else {
@@ -32,6 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link rel="stylesheet" href="styles.css">
+   
     
 </head>
 <style>
