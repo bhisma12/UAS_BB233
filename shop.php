@@ -177,25 +177,25 @@
       <div class="products">
         <div class="product">
           <a href=""></a>
-          <img src="../assets/spt.jpg" alt="Sepatu 1" />
-          <h3>LAND CRUISER 2025</h3>
+          <img src="../assets/Toyota Land Cruiser[US] 2024.jpg" alt="MOBIL 1" />
+          <h3>LAND CRUISER 2024</h3>
           <p>Rp 2,584,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
-          <img src="../assets/spt2.jpg" alt="Sepatu 2" />
+          <img src="../assets/2022 Lexus LX 600 F.jpg" alt="MOBIL 2" />
           <h3>LEXUS LX 600</h3>
           <p>Rp 3,059,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
-          <img src="../assets/spt3.jpg" alt="Sepatu 3" />
+          <img src="../assets/TOYOTA GR YARIS.jpg" alt="MOBIL 3" />
           <h3>TOYOTA GR YARIS 2025</h3>
           <p>Rp 1,198,000,000</p>
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
-          <img src="../assets/SPT5.jpg" alt="Sepatu 4" />
+          <img src="../assets/MCLAREN.jpg" alt="MOBIL 4" />
           <h3>MCLAREN 720S</h3>
           <p>Rp 3,428,000,000</p>
           <button>Beli Sekarang</button>
