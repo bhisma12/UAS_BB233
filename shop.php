@@ -114,7 +114,7 @@
       .footer {
         background-color: #4B4D4F;
         color: white;
-        padding: 20px;
+        padding: 25px;
         text-align: center;
       }
 

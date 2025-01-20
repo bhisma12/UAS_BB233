@@ -43,13 +43,15 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 }
 
 body {
-    background-color: #E4E4E5;
-    color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
+    
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('../assets/latar website.jpg') no-repeat center center fixed; /* Tambahkan gambar latar */
+            background-size: cover; /* Gambar akan menutupi seluruh area */
+            color: #fff; /* Teks berwarna putih untuk kontras */
+        }
+
 
 .login-container {
     display: flex;
