@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+    /* General Styles */
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #1a202c;
+        color: #ffffff;
+        display: flex;
+        height: 100vh;
+    }
+    .container {
+        display: flex;
+        width: 100%;
+    }
+    /* Sidebar */
+    aside {
+        width: 20%;
+        background-color: #2d3748;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    aside h1 {
+        color: #e53e3e;
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    aside p {
+        font-size: 0.8rem;
+        color: #a0aec0;
+        margin-bottom: 20px;
+    }
+    aside nav {
+        display: flex;
+        flex-direction: column;
+    }
+    aside nav a {
+        color: #a0aec0;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 5px;
+        transition: background 0.3s;
+    }
+    aside nav a:hover,
+    aside nav a.active {
+        background-color: #4a5568;
+        color: #ffffff;
+    }
+    aside .section-title {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #a0aec0;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    /* Main Content */
+    main {
+        width: 80%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    header {
+        margin-bottom: 20px;
+    }
+    header h2 {
+        font-size: 1.8rem;
+        margin: 0;
+    }
+    header p {
+        font-size: 0.9rem;
+        color: #a0aec0;
+        margin: 5px 0 20px;
+    }
+    .filters {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+    .filters input,
+    .filters select {
+        padding: 8px 10px;
+        background-color: #2d3748;
+        color: #a0aec0;
+        border: 1px solid #4a5568;
+        border-radius: 5px;
+        outline: none;
+        font-size: 0.9rem;
+    }
+    .filters input:focus,
+    .filters select:focus {
+        border-color: #63b3ed;
+    }
+    .refresh-btn {
+        padding: 8px 10px;
+        background-color: #2d3748;
+        color: #a0aec0;
+        border: 1px solid #4a5568;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .refresh-btn:hover {
+        background-color: #4a5568;
+    }
+    /* Table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #2d3748;
+        border-radius: 5px;
+        overflow: hidden;
+        margin-bottom: 20px;
+    }
+    table th,
+    table td {
+        text-align: left;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    table thead {
+        background-color: #4a5568;
+    }
+    table tbody tr:hover {
+        background-color: #4a5568;
+    }
+    .status-paid {
+        background-color: #48bb78;
+        color: #ffffff;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .btn-detail {
+        background-color: #4299e1;
+        color: #ffffff;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .btn-detail:hover {
+        background-color: #2b6cb0;
+    }
+</style>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside>
+            <h1>INFINITY 2024</h1>
+            <p>Intertwining Past and Future</p>
+            <nav>
+                <a href="#">Dashboard</a>
+                <a href="#">Tambah Mobil</a
+                <a>href="#users">User</a>
+                <a href="#" class="active">Transactions</a>
+                <a href="#">Mobil</a>
+            </nav>
+        </aside>
+
+        <!-- Main content -->
+        <main>
+            <header>
+                <h2>Transactions</h2>
+                <p>Transactions page that contains transactions list.</p>
+                <div class="filters">
+                    <input type="text" placeholder="Search transaction by using transaction ID...">
+                    <select>
+                        <option>All</option>
+                    </select>
+                    <select>
+                        <option>All</option>
+                    </select>
+                    <button class="refresh-btn">⟲</button>
+                </div>
+            </header>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>ID Transaction</th>
+                        <th>Name</th>
+                        <th>Total Price</th>
+                        <th>Fee</th>
+                        <th>Overall Price</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>2410264OEU04</td>
+                        <td>Patrick Star</td>
+                        <td>Rp 50.000</td>
+                        <td>Rp 4.500</td>
+                        <td>Rp 54.500</td>
+                        <td><span class="status-paid">PAID</span></td>
+                        <td><button class="btn-detail">Detail</button></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>241026ZQ4DGS</td>
+                        <td>Ida Bagus Gede Upadana Manuaba</td>
+                        <td>Rp 50.000</td>
+                        <td>Rp 353</td>
+                        <td>Rp 50.353</td>
+                        <td><span class="status-paid">PAID</span></td>
+                        <td><button class="btn-detail">Detail</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <header>
+                <h2>Users</h2>
+                <p>Users list that contains registered users.</p>
+            </header>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>No</th>
+                        <th>User ID</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>U12345</td>
+                        <td>Sandy Cheeks</td>
+                        <td>sandy@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>U67890</td>
+                        <td>Squidward Tentacles</td>
+                        <td>squidward@example.com</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+</body>
+</html>
