@@ -183,27 +183,6 @@
           <a href="halaman-detail-land-cruiser.html" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
-        <div class="product">
-          <img src="../assets/2022 Lexus LX 600 F.jpg" alt="MOBIL 2" />
-          <h3>LEXUS LX 600</h3>
-          <p>Rp 3,059,000,000</p>
-          <a href="halaman-detail-lexus-lx600.html" class="buy-button">
-          <button>Beli Sekarang</button>
-        </div>
-        <div class="product">
-          <img src="../assets/TOYOTA GR YARIS.jpg" alt="MOBIL 3" />
-          <h3>TOYOTA GR YARIS 2025</h3>
-          <p>Rp 1,198,000,000</p>
-          <a href="halaman-detail-toyota-gr-yaris.html" class="buy-button">
-          <button>Beli Sekarang</button>
-        </div>
-        <div class="product">
-          <img src="../assets/MCLAREN.jpg" alt="MOBIL 4" />
-          <h3>MCLAREN 720S</h3>
-          <p>Rp 3,428,000,000</p>
-          <a href="halaman-detail-toyota-gr-yaris.html" class="buy-button">
-          <button>Beli Sekarang</button>
-        </div>
       </div>
     </div>
 

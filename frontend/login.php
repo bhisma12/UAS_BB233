@@ -47,7 +47,7 @@ body {
             font-family: 'Poppins', sans-serif;
             margin: 0;
             padding: 0;
-            background: url('../assets/latar website.jpg') no-repeat center center fixed; /* Tambahkan gambar latar */
+            background: url('../assets/download.jpg') no-repeat center center fixed; /* Tambahkan gambar latar */
             background-size: cover; /* Gambar akan menutupi seluruh area */
             color: #fff; /* Teks berwarna putih untuk kontras */
         }
