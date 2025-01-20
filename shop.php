@@ -180,24 +180,28 @@
           <img src="../assets/Toyota Land Cruiser[US] 2024.jpg" alt="MOBIL 1" />
           <h3>LAND CRUISER 2024</h3>
           <p>Rp 2,584,000,000</p>
+          <a href="halaman-detail-land-cruiser.html" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/2022 Lexus LX 600 F.jpg" alt="MOBIL 2" />
           <h3>LEXUS LX 600</h3>
           <p>Rp 3,059,000,000</p>
+          <a href="halaman-detail-lexus-lx600.html" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/TOYOTA GR YARIS.jpg" alt="MOBIL 3" />
           <h3>TOYOTA GR YARIS 2025</h3>
           <p>Rp 1,198,000,000</p>
+          <a href="halaman-detail-toyota-gr-yaris.html" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
         <div class="product">
           <img src="../assets/MCLAREN.jpg" alt="MOBIL 4" />
           <h3>MCLAREN 720S</h3>
           <p>Rp 3,428,000,000</p>
+          <a href="halaman-detail-toyota-gr-yaris.html" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
       </div>
@@ -216,6 +220,11 @@
         <img src="../assets/New_Logo_JNE.png" alt="JNE" />
         <img src="../assets/J&T_Express_logo.svg.png" alt="JNT" />
       </div>
+      <div class="testimonials">
+  <h2>Apa Kata Mereka?</h2>
+  <p>"Pengalaman membeli mobil di sini sangat memuaskan!"</p>
+  <p>"Pelayanan yang ramah dan cepat!"</p>
+</div>
     </footer>
     <script>
       feather.replace();
