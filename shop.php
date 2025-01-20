@@ -180,7 +180,7 @@
           <img src="../assets/Toyota Land Cruiser[US] 2024.jpg" alt="MOBIL 1" />
           <h3>LAND CRUISER 2024</h3>
           <p>Rp 2,584,000,000</p>
-          <a href="halaman-detail-land-cruiser.html" class="buy-button">
+          <a href="frontend/proses_transaksi.php" class="buy-button">
           <button>Beli Sekarang</button>
         </div>
       </div>
