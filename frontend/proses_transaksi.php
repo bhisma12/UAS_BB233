@@ -107,7 +107,7 @@
             <option value="ovo">OVO</option>
             <option value="gopay">Gopay</option>
         </select>
-
+        <a href="frontend/proses_transaksi.php" class="buy-button">
         <button type="submit" class="submit-button">Selesaikan Pembelian</button>
     </form>
 </div>
