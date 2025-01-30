@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_SESSION['user_id'])) {
     // Jika pengguna sudah login, redirect ke halaman yang diinginkan
-    header("Location: dashboard.php");
+    header("Location:transaksi.html");
     exit();
 }
 
