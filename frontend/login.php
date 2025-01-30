@@ -155,7 +155,7 @@ button.toggle-password {
  <div class="login-container">
         <div class="login-box">
             <div class="logo">
-                <img src="logo mobil.png" alt="used car">
+                <img src="../assets/logo mobil.png" alt="used car">
                 <h1>Used Car Dealersip</h1>
                 <p>Dijamin Murah Dan Aman</p>
             </div>
